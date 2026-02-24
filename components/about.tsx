@@ -4,13 +4,13 @@ import { Heart, Eye, Shield } from "lucide-react"
 const values = [
   {
     icon: Heart,
-    title: "Missao",
+    title: "Missão",
     description:
       "Proporcionar cuidado integral, acolhimento e qualidade de vida aos idosos, promovendo dignidade e bem-estar em todas as fases da vida.",
   },
   {
     icon: Eye,
-    title: "Visao",
+    title: "Visão",
     description:
       "Ser referência em cuidado humanizado ao idoso, reconhecida pela excelência dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
   },
@@ -31,7 +31,7 @@ export function About() {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/images/about.jpg"
-                alt="Idosos em atividades recreativas no Lar Acolher"
+                alt="Idosos em atividades recreativas no Asilo de Santa Rita"
                 width={600}
                 height={450}
                 className="object-cover w-full h-[400px] lg:h-[500px]"
