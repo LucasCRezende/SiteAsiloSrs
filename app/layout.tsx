@@ -16,9 +16,9 @@ const _inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Lar Acolher - Cuidado, Amor e Dignidade na Melhor Idade',
+  title: 'Asilo de Santa Rita - Cuidado, Amor e Dignidade na Melhor Idade',
   description:
-    'Instituicao de Longa Permanencia para Idosos dedicada a oferecer acolhimento, respeito e qualidade de vida. Conheca nossa estrutura, equipe e como voce pode ajudar.',
+    'Instituicao de Longa Permanência para Idosos dedicada a oferecer acolhimento, respeito e qualidade de vida. Conheça nossa estrutura, equipe e como você pode ajudar.',
   keywords: [
     'ILPI',
     'asilo',
