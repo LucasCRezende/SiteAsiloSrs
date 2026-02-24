@@ -73,7 +73,7 @@ export function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localizacao do Lar Acolher"
+                title="Localizacao do Asilo de Santa Rita"
               />
             </div>
           </div>
