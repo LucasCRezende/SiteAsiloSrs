@@ -12,13 +12,13 @@ const values = [
     icon: Eye,
     title: "Visao",
     description:
-      "Ser referencia em cuidado humanizado ao idoso, reconhecida pela excelencia dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
+      "Ser referência em cuidado humanizado ao idoso, reconhecida pela excelencia dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
   },
   {
     icon: Shield,
     title: "Valores",
     description:
-      "Respeito, empatia, transparencia, etica e compromisso com a dignidade humana. Acreditamos que cada idoso merece viver com amor e cuidado.",
+      "Respeito, empatia, transparência, ética e compromisso com a dignidade humana. Acreditamos que cada idoso merece viver com amor e cuidado.",
   },
 ]
 
@@ -38,7 +38,7 @@ export function About() {
               />
             </div>
             <div className="absolute -bottom-6 -right-4 lg:-right-8 bg-primary text-primary-foreground px-6 py-4 rounded-xl shadow-lg">
-              <p className="text-3xl font-bold">25+</p>
+              <p className="text-3xl font-bold">70+</p>
               <p className="text-sm opacity-90">Anos de historia</p>
             </div>
           </div>
@@ -48,19 +48,20 @@ export function About() {
               Sobre Nos
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-              Uma historia construida com amor e dedicacao
+              Uma história construida com amor e dedicação
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              Fundado ha mais de 25 anos, o Lar Acolher nasceu do sonho de criar
+              Fundado ha mais de 70 anos, o Asilo de Santa Rita nasceu do sonho de criar
               um espaco onde os idosos pudessem viver com dignidade, conforto e
-              alegria. Nossa instituicao oferece cuidado integral, com equipe
+              alegria. 
+              Nossa instituicao oferece cuidado integral, com equipe
               multidisciplinar e infraestrutura pensada para o bem-estar de cada
               residente.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Mais do que uma casa de repouso, somos uma familia. Aqui, cada
-              idoso e tratado com respeito, carinho e atencao individualizada,
-              garantindo que seus dias sejam preenchidos com atividades, convivio
+              Mais do que uma casa de repouso, somos uma família. Aqui, cada
+              idoso e tratado com respeito, carinho e atençao individualizada,
+              garantindo que seus dias sejam preenchidos com atividades, convívio
               e muito amor.
             </p>
           </div>
