@@ -12,7 +12,7 @@ const values = [
     icon: Eye,
     title: "Visao",
     description:
-      "Ser referência em cuidado humanizado ao idoso, reconhecida pela excelencia dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
+      "Ser referência em cuidado humanizado ao idoso, reconhecida pela excelência dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
   },
   {
     icon: Shield,
