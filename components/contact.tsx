@@ -10,17 +10,17 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Endereco",
-    value: "Rua das Flores, 123 - Centro, Sao Paulo - SP",
+    value: "Rua Monsenhor Calazans, 120 - Vila operária, Santa Rita do Sapucaí - MG",
   },
   {
     icon: Phone,
     label: "Telefone / WhatsApp",
-    value: "(11) 99999-9999",
+    value: "(35) 3471-1112",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@laracolher.org.br",
+    value: "asilosrs@yahoo.com.br",
   },
   {
     icon: Clock,
