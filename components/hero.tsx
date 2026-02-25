@@ -53,7 +53,7 @@ export function Hero() {
 
           <div className="mt-12 flex items-center gap-8">
             <div>
-              <p className="text-3xl font-bold text-primary-foreground">25+</p>
+              <p className="text-3xl font-bold text-primary-foreground">70+</p>
               <p className="text-sm text-primary-foreground/70">Anos de cuidado</p>
             </div>
             <div className="h-10 w-px bg-primary-foreground/20" />

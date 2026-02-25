@@ -5,28 +5,28 @@ const items = [
     icon: FileText,
     title: "Relatorios Financeiros",
     description:
-      "Publicamos anualmente nossos relatorios financeiros detalhados, garantindo total transparencia sobre a utilizacao dos recursos.",
+      "Publicamos anualmente nossos relatórios financeiros detalhados, garantindo total transparência sobre a utilizacao dos recursos.",
     badge: "Atualizado 2025",
   },
   {
     icon: Handshake,
     title: "Parcerias",
     description:
-      "Trabalhamos em conjunto com orgaos publicos, empresas e organizacoes sociais para ampliar nosso impacto e alcance.",
+      "Trabalhamos em conjunto com orgaos públicos, empresas e organizacoes sociais para ampliar nosso impacto e alcance.",
     badge: "15+ Parceiros",
   },
   {
     icon: ClipboardCheck,
     title: "Prestacao de Contas",
     description:
-      "Mantemos registros detalhados de todas as entradas e saidas, disponiveis para consulta publica a qualquer momento.",
+      "Mantemos registros detalhados de todas as entradas e saídas, disponíveis para consulta publica a qualquer momento.",
     badge: "Auditado",
   },
   {
     icon: Award,
     title: "Certificacoes",
     description:
-      "Possuimos todas as certificacoes necessarias e somos reconhecidos pelos orgaos reguladores pela qualidade dos nossos servicos.",
+      "Possuimos todas as certificaçõees necessarias e somos reconhecidos pelos orgãos reguladores pela qualidade dos nossos serviços.",
     badge: "CNAS / CEBAS",
   },
 ]

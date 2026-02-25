@@ -27,7 +27,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Heart className="h-7 w-7 text-accent" fill="currentColor" />
               <span className="text-xl font-bold text-primary-foreground">
-                Lar Acolher
+                Asilo de Santa Rita
               </span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
