@@ -9,13 +9,13 @@ import { useState } from "react"
 const contactInfo = [
   {
     icon: MapPin,
-    label: "Endereco",
+    label: "Endereço",
     value: "Rua Monsenhor Calazans, 120 - Vila operária, Santa Rita do Sapucaí - MG",
   },
   {
     icon: Phone,
     label: "Telefone / WhatsApp",
-    value: "(35) 3471-1112",
+    value: "(35) 3471-1112 / (035) xxxx-xxxx",
   },
   {
     icon: Mail,
@@ -66,14 +66,14 @@ export function Contact() {
 
             <div className="mt-8 rounded-2xl overflow-hidden border border-border h-[250px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976684993693!2d-46.65484002466888!3d-23.56105456194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sPra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1709000000000!5m2!1spt-BR!2sbr"
+                src="<iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2190.351051553865!2d-45.7036917!3d-22.2377374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba3b219483311%3A0x2a6955cdc70667d5!2sAsilo%20-%20Sociedade%20de%20Assist%C3%AAncia%20aos%20Pobres!5e1!3m2!1spt-BR!2sbr!4v1772026368925!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localizacao do Asilo de Santa Rita"
+                title="Localização do Asilo de Santa Rita"
               />
             </div>
           </div>
