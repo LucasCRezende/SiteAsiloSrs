@@ -24,7 +24,7 @@ const contactInfo = [
   },
   {
     icon: Clock,
-    label: "Horario de Visitas",
+    label: "Horário de Visitas",
     value: "Segunda a Domingo, 9h as 17h",
   },
 ]
@@ -72,7 +72,7 @@ export function Contact() {
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localizacao do Asilo de Santa Rita"
+                title="Localização do Asilo de Santa Rita"
               />
             </div>
           </div>

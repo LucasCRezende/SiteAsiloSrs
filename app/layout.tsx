@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     'idosos',
     'cuidado',
     'acolhimento',
-    'doacao',
+    'doação',
     'voluntariado',
   ],
   icons: {

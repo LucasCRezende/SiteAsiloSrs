@@ -3,7 +3,7 @@ import { FileText, Handshake, ClipboardCheck, Award } from "lucide-react"
 const items = [
   {
     icon: FileText,
-    title: "Relatorios Financeiros",
+    title: "Relatórios Financeiros",
     description:
       "Publicamos anualmente nossos relatórios financeiros detalhados, garantindo total transparência sobre a utilizacao dos recursos.",
     badge: "Atualizado 2025",
@@ -17,16 +17,16 @@ const items = [
   },
   {
     icon: ClipboardCheck,
-    title: "Prestacao de Contas",
+    title: "Prestação de Contas",
     description:
       "Mantemos registros detalhados de todas as entradas e saídas, disponíveis para consulta publica a qualquer momento.",
     badge: "Auditado",
   },
   {
     icon: Award,
-    title: "Certificacoes",
+    title: "Certificações",
     description:
-      "Possuimos todas as certificaçõees necessarias e somos reconhecidos pelos orgãos reguladores pela qualidade dos nossos serviços.",
+      "Possuímos todas as certificações necessárias e somos reconhecidos pelos orgãos reguladores pela qualidade dos nossos serviços.",
     badge: "CNAS / CEBAS",
   },
 ]
