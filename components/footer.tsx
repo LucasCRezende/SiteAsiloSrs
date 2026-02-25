@@ -27,7 +27,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Heart className="h-7 w-7 text-accent" fill="currentColor" />
               <span className="text-xl font-bold text-primary-foreground">
-                Lar Acolher
+                Asilo de Santa Rita
               </span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
@@ -83,10 +83,10 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-primary-foreground mb-4">Contato</h3>
             <div className="flex flex-col gap-2.5 text-sm text-primary-foreground/70">
-              <p>Rua das Flores, 123</p>
-              <p>Centro, Sao Paulo - SP</p>
-              <p>(11) 99999-9999</p>
-              <p>contato@laracolher.org.br</p>
+              <p>Rua Monsenhor Calazans, 120</p>
+              <p>Vila operária, Santa Rita do Sapucaí - MG</p>
+              <p>(35) 3471-1112</p>
+              <p>asilosrs@yahoo.com.br</p>
             </div>
           </div>
         </div>
