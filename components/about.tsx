@@ -1,87 +1,90 @@
+import { useState } from "react"
+import Link from "next/link"
 import Image from "next/image"
-import { Heart, Eye, Shield } from "lucide-react"
+import { Menu, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
-const values = [
-  {
-    icon: Heart,
-    title: "Missão",
-    description:
-      "Proporcionar cuidado integral, acolhimento e qualidade de vida aos idosos, promovendo dignidade e bem-estar em todas as fases da vida.",
-  },
-  {
-    icon: Eye,
-    title: "Visão",
-    description:
-      "Ser referência em cuidado humanizado ao idoso, reconhecida pela excelência dos servicos e pelo impacto positivo na vida dos residentes e suas familias.",
-  },
-  {
-    icon: Shield,
-    title: "Valores",
-    description:
-      "Respeito, empatia, transparência, ética e compromisso com a dignidade humana. Acreditamos que cada idoso merece viver com amor e cuidado.",
-  },
+const navLinks = [
+  { label: "Sobre", href: "#sobre" },
+  { label: "Serviços", href: "#serviços" },
+  { label: "Estrutura", href: "#estrutura" },
+  { label: "Equipe", href: "#equipe" },
+  { label: "Depoimentos", href: "#depoimentos" },
+  { label: "Transparência", href: "#transparência" },
+  { label: "Contato", href: "#contato" },
 ]
 
-export function About() {
+export function Navbar() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <section id="sobre" className="py-20 lg:py-28 bg-background">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-2xl">
-              <Image
-                src="/images/about.jpg"
-                alt="Idosos em atividades recreativas no Asilo de Santa Rita"
-                width={600}
-                height={450}
-                className="object-cover w-full h-[400px] lg:h-[500px]"
-              />
-            </div>
-            <div className="absolute -bottom-6 -right-4 lg:-right-8 bg-primary text-primary-foreground px-6 py-4 rounded-xl shadow-lg">
-              <p className="text-3xl font-bold">70+</p>
-              <p className="text-sm opacity-90">Anos de historia</p>
-            </div>
-          </div>
-
-          <div>
-            <span className="text-sm font-medium tracking-wider uppercase text-primary">
-              Sobre Nos
+    <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between lg:h-20">
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/publiclogo-asilo.png"
+              alt="Logo Asilo de Santa Rita"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+            <span className="text-xl font-bold text-foreground tracking-tight">
+              Asilo de Santa Rita
             </span>
-            <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-              Uma história construida com amor e dedicação
-            </h2>
-            <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              Fundado ha mais de 70 anos, o Asilo de Santa Rita nasceu do sonho de criar
-              um espaco onde os idosos pudessem viver com dignidade, conforto e
-              alegria. 
-              Nossa instituicao oferece cuidado integral, com equipe
-              multidisciplinar e infraestrutura pensada para o bem-estar de cada
-              residente.
-            </p>
-            <p className="mt-4 text-muted-foreground leading-relaxed">
-              Mais do que uma casa de repouso, somos uma família. Aqui, cada
-              idoso e tratado com respeito, carinho e atençao individualizada,
-              garantindo que seus dias sejam preenchidos com atividades, convívio
-              e muito amor.
-            </p>
+          </Link>
+
+          <div className="hidden lg:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
+
+          <div className="hidden lg:flex items-center gap-3">
+            <Button asChild variant="outline" size="sm">
+              <Link href="#doar">Quero Ajudar</Link>
+            </Button>
+          </div>
+
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="lg:hidden p-2 text-foreground"
+            aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+          >
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
         </div>
 
-        <div className="mt-20 grid sm:grid-cols-3 gap-6">
-          {values.map((item) => (
-            <div
-              key={item.title}
-              className="group bg-card border border-border rounded-2xl p-8 hover:border-primary/30 hover:shadow-lg transition-all duration-300"
-            >
-              <div className="flex items-center justify-center w-12 h-12 bg-secondary rounded-xl mb-5 group-hover:bg-primary/10 transition-colors">
-                <item.icon className="h-6 w-6 text-primary" />
+        {isOpen && (
+          <div className="lg:hidden border-t border-border pb-4">
+            <div className="flex flex-col gap-2 pt-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-secondary rounded-lg transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="mt-2 px-3">
+                <Button asChild className="w-full" size="sm">
+                  <Link href="#doar" onClick={() => setIsOpen(false)}>
+                    Quero Ajudar
+                  </Link>
+                </Button>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{item.description}</p>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
+          </div>
+        )}
+      </nav>
+    </header>
   )
 }
