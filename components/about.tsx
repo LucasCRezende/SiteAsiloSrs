@@ -68,7 +68,7 @@ export function About() {
               ampliando o cuidado e garantindo melhores condições aos assistidos.
               </p>
               <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              Em 1944, sob a presidência do Cel. Francisco Moreira da Costa, 
+              Em 1944, sob a presidência do Cel. Francisco Moreira da Costa,
               foram construídos dois pavilhões, um masculino e outro feminino, 
               além de refeitório, capela e residências. A chegada das Irmãs da 
               Providência trouxe organização interna e dedicação contínua ao cuidado dos idosos.
