@@ -27,18 +27,18 @@ export function About() {
     <section id="sobre" className="py-20 lg:py-28 bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-2xl">
+          <div className="relative h-full">
+            <div className="relative overflow-hidden rounded-2xl h-full">
               <Image
                 src="/images/about.jpg"
                 alt="Idosos em atividades recreativas no Lar Acolher"
                 width={600}
                 height={450}
-                className="object-cover w-full h-[400px] lg:h-[500px]"
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="absolute -bottom-6 -right-4 lg:-right-8 bg-primary text-primary-foreground px-6 py-4 rounded-xl shadow-lg">
-              <p className="text-3xl font-bold">25+</p>
+              <p className="text-3xl font-bold">70+</p>
               <p className="text-sm opacity-90">Anos de historia</p>
             </div>
           </div>
@@ -57,30 +57,36 @@ export function About() {
               Apenas uma rua com pequenas casas destinadas a abrigar pessoas em situação
               de vulnerabilidade. A iniciativa, promovida por maçons e espíritas, 
               recebeu o nome de Liga Filantrópica, oferecendo abrigo aos mais necessitados.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Por volta de 1940, sensibilizado com as dificuldades enfrentadas pelos idosos, 
               o então presidente dos Vicentinos, Vítor de Souza Pinto, mobilizou a comunidade 
               para fortalecer a assistência. A união entre espíritas, maçons e católicos marcou
               uma nova fase da entidade, que passou a se estruturar oficialmente como Liga Filantrópica
               Santarritense, ampliando o cuidado e garantindo melhores condições aos assistidos.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Em 1944, sob a presidência do Cel. Francisco Moreira da Costa, foram construídos dois
               pavilhões, um masculino e outro feminino, além de refeitório, capela e residências. 
               A chegada das Irmãs da Providência trouxe organização interna e dedicação contínua ao cuidado dos idosos.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Entre as décadas de 1950 e 1970, importantes lideranças contribuíram para o crescimento
               da instituição. Reformas estruturais, ampliação das instalações e melhorias nas condições
               de moradia garantiram mais conforto e dignidade aos residentes. Em 1973, após grande reconstrução,
               o asilo foi reinaugurado totalmente renovado.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Em 1976, foi firmado convênio com o INPS, assegurando benefícios e fortalecendo a sustentabilidade 
               da entidade. Nos anos seguintes, novas construções foram realizadas, incluindo salão de recreação, 
               espaço para artesanato e melhorias na infraestrutura de saúde, como a criação da enfermaria e 
               aquisição de equipamentos essenciais.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Ao longo de sua trajetória, a instituição sempre contou com o apoio da comunidade, 
               lideranças dedicadas e religiosas comprometidas com o cuidado e o bem-estar dos idosos.
-
+              </p>
+              <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
               Hoje, seguimos honrando essa história de solidariedade, trabalho e amor ao próximo, 
               mantendo vivo o propósito que nos deu origem: oferecer acolhimento digno, respeito 
               e qualidade de vida às pessoas idosas.
