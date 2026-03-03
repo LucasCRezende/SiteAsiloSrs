@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Endereco",
-    value: "Rua Monsenhor Calazans, 120 - Vila operária, Santa Rita do Sapucaí - MG",
+    value: "Rua Monsenhor Calazans, 120 - Vila Operária, Santa Rita do Sapucaí - MG",
   },
   {
     icon: Phone,

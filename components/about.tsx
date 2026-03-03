@@ -6,7 +6,7 @@ const values = [
     icon: Heart,
     title: "Missao",
     description:
-      "Proporcionar cuidado integral, acolhimento e qualidade de vida aos idosos, promovendo dignidade e bem-estar em todas as fases da vida.",
+      "Oferecer acolhimento integral à pessoa idosa, garantindo assistência humanizada, ambiente seguro e suporte físico, emocional e social, honrando nossa história de solidariedade e serviço à comunidade..",
   },
   {
     icon: Eye,

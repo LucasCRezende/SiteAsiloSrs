@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Maria Helena",
     role: "Familiar",
-    text: "Minha mae esta no Asilo de Santa Rita ha 3 anos e posso dizer que foi a melhor decisao que tomamos. A equipe trata ela com muito carinho e respeito. Fico tranquila sabendo que ela esta bem cuidada.",
+    text: "Minha mae esta no Sociedade de Assistência aos Pobres há 3 anos e posso dizer que foi a melhor decisao que tomamos. A equipe trata ela com muito carinho e respeito. Fico tranquila sabendo que ela esta bem cuidada.",
   },
   {
     name: "Seu Joao",
@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: "Ana Paula",
     role: "Voluntaria",
-    text: "Ser voluntaria no Asilo de Santa Rita mudou minha vida. Ver o sorriso dos idosos quando chegamos e algo que nao tem preco. A instituicao faz um trabalho incrivel e merece todo apoio.",
+    text: "Ser voluntaria no Sociedade de Assistência aos Pobres mudou minha vida. Ver o sorriso dos idosos quando chegamos e algo que nao tem preco. A instituicao faz um trabalho incrivel e merece todo apoio.",
   },
   {
     name: "Carlos Eduardo",
