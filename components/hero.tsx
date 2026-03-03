@@ -26,9 +26,9 @@ export function Hero() {
             Cuidado, amor e dignidade na melhor idade
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/85 leading-relaxed max-w-xl">
-            Uma instituicao dedicada a oferecer acolhimento, respeito e
-            qualidade de vida aos idosos. Aqui, cada momento e vivido com
-            carinho e atencao.
+            Uma instituição dedicada a oferecer acolhimento, respeito e
+            qualidade de vida aos idosos. 
+            Aqui, cada momento e vivido com carinho e atenção.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Button
@@ -47,7 +47,7 @@ export function Hero() {
               variant="outline"
               className="bg-transparent border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground text-base px-8"
             >
-              <Link href="#sobre">Conheca Nossa Historia</Link>
+              <Link href="#sobre">Conheça Nossa História</Link>
             </Button>
           </div>
 

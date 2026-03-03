@@ -48,20 +48,42 @@ export function About() {
               Sobre Nos
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-              Uma historia construida com amor e dedicacao
+              Uma história construída com amor e dedicação
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              Fundado ha mais de 25 anos, o Lar Acolher nasceu do sonho de criar
-              um espaco onde os idosos pudessem viver com dignidade, conforto e
-              alegria. Nossa instituicao oferece cuidado integral, com equipe
-              multidisciplinar e infraestrutura pensada para o bem-estar de cada
-              residente.
-            </p>
-            <p className="mt-4 text-muted-foreground leading-relaxed">
-              Mais do que uma casa de repouso, somos uma familia. Aqui, cada
-              idoso e tratado com respeito, carinho e atencao individualizada,
-              garantindo que seus dias sejam preenchidos com atividades, convivio
-              e muito amor.
+              A Sociedade de Assistência aos Pobres, hoje reconhecida como uma das
+              instituições mais importantes de acolhimento em Santa Rita do Sapucaí,
+              nasceu de um gesto simples de solidariedade. No início, o local era 
+              Apenas uma rua com pequenas casas destinadas a abrigar pessoas em situação
+              de vulnerabilidade. A iniciativa, promovida por maçons e espíritas, 
+              recebeu o nome de Liga Filantrópica, oferecendo abrigo aos mais necessitados.
+
+              Por volta de 1940, sensibilizado com as dificuldades enfrentadas pelos idosos, 
+              o então presidente dos Vicentinos, Vítor de Souza Pinto, mobilizou a comunidade 
+              para fortalecer a assistência. A união entre espíritas, maçons e católicos marcou
+              uma nova fase da entidade, que passou a se estruturar oficialmente como Liga Filantrópica
+              Santarritense, ampliando o cuidado e garantindo melhores condições aos assistidos.
+
+              Em 1944, sob a presidência do Cel. Francisco Moreira da Costa, foram construídos dois
+              pavilhões, um masculino e outro feminino, além de refeitório, capela e residências. 
+              A chegada das Irmãs da Providência trouxe organização interna e dedicação contínua ao cuidado dos idosos.
+
+              Entre as décadas de 1950 e 1970, importantes lideranças contribuíram para o crescimento
+              da instituição. Reformas estruturais, ampliação das instalações e melhorias nas condições
+              de moradia garantiram mais conforto e dignidade aos residentes. Em 1973, após grande reconstrução,
+              o asilo foi reinaugurado totalmente renovado.
+
+              Em 1976, foi firmado convênio com o INPS, assegurando benefícios e fortalecendo a sustentabilidade 
+              da entidade. Nos anos seguintes, novas construções foram realizadas, incluindo salão de recreação, 
+              espaço para artesanato e melhorias na infraestrutura de saúde, como a criação da enfermaria e 
+              aquisição de equipamentos essenciais.
+
+              Ao longo de sua trajetória, a instituição sempre contou com o apoio da comunidade, 
+              lideranças dedicadas e religiosas comprometidas com o cuidado e o bem-estar dos idosos.
+
+              Hoje, seguimos honrando essa história de solidariedade, trabalho e amor ao próximo, 
+              mantendo vivo o propósito que nos deu origem: oferecer acolhimento digno, respeito 
+              e qualidade de vida às pessoas idosas.
             </p>
           </div>
         </div>
