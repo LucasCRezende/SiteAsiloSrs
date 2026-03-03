@@ -95,22 +95,6 @@ export function About() {
               mantendo vivo o propósito que nos deu origem: oferecer acolhimento digno, respeito 
               e qualidade de vida às pessoas idosas.
             </p>
-            <div className="mt-10">
-            <a
-              href="https://emporiodenoticias.blogspot.com/2012/06/como-surgiu-sociedade-de-assistencia.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center justify-between gap-6 bg-primary text-primary-foreground px-8 py-6 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-            >
-              <div>
-                <p className="text-2xl font-bold">Conheça nossa história completa</p>
-                <p className="text-sm opacity-90 mt-1">
-                  Leia a matéria especial sobre a origem da instituição
-                </p>
-              </div>
-
-              <ArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
-            </a>
           </div>
         </div>
 
