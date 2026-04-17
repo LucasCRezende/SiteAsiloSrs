@@ -28,7 +28,7 @@ export function Hero() {
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/85 leading-relaxed max-w-xl">
             Uma instituicao dedicada a oferecer acolhimento, respeito e
             qualidade de vida aos idosos. Aqui, cada momento e vivido com
-            carinho e atencao.
+            carinho e atenção.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Button
