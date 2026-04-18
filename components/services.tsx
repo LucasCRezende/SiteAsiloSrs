@@ -13,7 +13,7 @@ const services = [
     icon: Home,
     title: "Acolhimento Permanente",
     description:
-      "Ambiente seguro e acolhedor para moradia de longa permanencia, com suporte 24 horas.",
+      "Ambiente seguro e acolhedor para moradia de longa permanência, com suporte 24 horas.",
   },
   {
     icon: Stethoscope,
@@ -25,23 +25,23 @@ const services = [
     icon: UtensilsCrossed,
     title: "Alimentacao Balanceada",
     description:
-      "Refeicoes nutritivas e saborosas, elaboradas por nutricionistas para cada necessidade.",
+      "Refeições nutritivas e saborosas, elaboradas por nutricionistas para cada necessidade.",
   },
   {
     icon: Activity,
     title: "Fisioterapia",
     description:
-      "Sessoes de fisioterapia para manutencao da mobilidade, forca e independencia funcional.",
+      "Sessões de fisioterapia para manutenção da mobilidade, forca e independência funcional.",
   },
   {
     icon: Gamepad2,
     title: "Atividades Recreativas",
     description:
-      "Programacao diaria com jogos, musica, artesanato e atividades de socializacao.",
+      "Programacao diária com jogos, musica, artesanato e atividades de socialização.",
   },
   {
     icon: Brain,
-    title: "Atendimento Psicologico",
+    title: "Atendimento Psicológico",
     description:
       "Apoio emocional especializado para residentes e suas familias, com escuta ativa e acolhimento.",
   },
@@ -49,7 +49,7 @@ const services = [
     icon: HeartPulse,
     title: "Acompanhamento Medico",
     description:
-      "Consultas regulares e monitoramento de saude com medicos geriatras e especialistas.",
+      "Consultas regulares e monitoramento de saude com medicos e especialistas.",
   },
 ]
 
@@ -65,7 +65,7 @@ export function Services() {
             Cuidado completo para cada necessidade
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Oferecemos uma gama completa de servicos para garantir o bem-estar
+            Oferecemos uma gama completa de serviços para garantir o bem-estar
             fisico, emocional e social dos nossos residentes.
           </p>
         </div>

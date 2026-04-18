@@ -1,38 +1,45 @@
-import { Stethoscope, HeartHandshake, UserCheck, Activity, Users } from "lucide-react"
+import { Stethoscope, HeartHandshake, UserCheck, Activity, Apple, Brain Users } from "lucide-react"
 
 const team = [
   {
     icon: Stethoscope,
-    role: "Enfermeiros",
-    count: "12",
+    role: "Enfermeiros e Medicos",
     description:
       "Equipe de enfermagem qualificada, presente 24 horas por dia para garantir os melhores cuidados.",
   },
   {
     icon: HeartHandshake,
     role: "Cuidadores",
-    count: "20",
     description:
-      "Profissionais dedicados ao acompanhamento diario, com carinho e atencao individualizada.",
+      "Profissionais dedicados ao acompanhamento diário, com carinho e atencao individualizada.",
+  },
+  {
+  icon: Apple,
+  role: "Nutricionistas",
+  description:
+    "Especialistas que cuidam da alimentação com atenção e equilíbrio, promovendo saúde, energia e mais qualidade de vida aos idosos.",
+  },
+  {
+  icon: Brain,
+  role: "Psicologia",
+  description:
+    "Cuidado emocional que acolhe, escuta e fortalece a mente, trazendo mais tranquilidade, autoestima e qualidade de vida aos idosos.",
   },
   {
     icon: UserCheck,
     role: "Assistente Social",
-    count: "3",
     description:
       "Suporte social e emocional para residentes e familias, mediando necessidades e direitos.",
   },
   {
     icon: Activity,
     role: "Fisioterapeutas",
-    count: "5",
     description:
-      "Especialistas em reabilitacao e manutencao da mobilidade, promovendo independencia funcional.",
+      "Especialistas em reabilitação e manutenção da mobilidade, promovendo independencia funcional.",
   },
   {
     icon: Users,
     role: "Voluntarios",
-    count: "30+",
     description:
       "Pessoas generosas que doam seu tempo e amor, enriquecendo o dia a dia dos nossos idosos.",
   },

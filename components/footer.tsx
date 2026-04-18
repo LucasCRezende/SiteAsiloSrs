@@ -31,7 +31,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Cuidado, amor e dignidade na melhor idade. Uma instituiçãoo dedicada
+              Cuidado, amor e dignidade na melhor idade. Uma instituição dedicada
               ao bem-estar e a qualidade de vida dos idosos.
             </p>
             <div className="flex gap-3 mt-6">
