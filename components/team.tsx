@@ -1,4 +1,4 @@
-import { Stethoscope, HeartHandshake, UserCheck, Activity, Apple, Brain Users } from "lucide-react"
+import { Stethoscope, HeartHandshake, UserCheck, Activity, Apple, Brain, Users } from "lucide-react"
 
 const team = [
   {
