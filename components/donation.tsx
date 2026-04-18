@@ -6,16 +6,16 @@ const donationOptions = [
   {
     icon: HandCoins,
     title: "Pix",
-    description: "Faca uma doacao rapida e segura via Pix para nossa chave institucional.",
+    description: "Façaa uma doação rápida e segura via Pix para nossa chave institucional.",
   },
   {
     icon: Heart,
     title: "Mensal Recorrente",
-    description: "Contribua mensalmente e ajude a manter nosso trabalho de forma contInua.",
+    description: "Contribua mensalmente e ajude a manter nosso trabalho de forma contínua.",
   },
   {
     icon: Apple,
-    title: "Doacoes de Itens",
+    title: "Doações de Itens",
     description: "Doe alimentos, roupas, materiais de higiene e outros itens essenciais.",
   },
 ]
@@ -27,13 +27,13 @@ export function Donation() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div>
             <span className="text-sm font-medium tracking-wider uppercase text-primary-foreground/70">
-              Faca a Diferenca
+              Faça a Diferença
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-primary-foreground leading-tight text-balance">
               Sua ajuda transforma vidas
             </h2>
             <p className="mt-6 text-primary-foreground/85 text-lg leading-relaxed">
-              Cada contribuicao, por menor que seja, faz uma diferenca enorme na
+              Cada contribuição, por menor que seja, faz uma diferenca enorme na
               vida dos nossos idosos. Sua generosidade ajuda a manter os
               cuidados, a alimentacao, os medicamentos e as atividades que
               trazem alegria e dignidade.
@@ -57,7 +57,7 @@ export function Donation() {
               >
                 <Link href="#contato">
                   <Users className="mr-2 h-4 w-4" />
-                  Ser Voluntario
+                  Ser Voluntário
                 </Link>
               </Button>
             </div>
