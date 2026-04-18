@@ -7,7 +7,7 @@ import { X } from "lucide-react"
 const photos = [
   {
     src: "/images/structure-1.jpg",
-    alt: "Quarto confortavel e bem iluminado",
+    alt: "Quarto confortável e bem iluminado",
     label: "Quartos",
   },
   {
@@ -22,8 +22,8 @@ const photos = [
   },
   {
     src: "/images/structure-4.jpg",
-    alt: "Espaco de convivencia acolhedor",
-    label: "Convivencia",
+    alt: "Espaco de convivência acolhedor",
+    label: "Convivência",
   },
 ]
 
@@ -38,10 +38,10 @@ export function Structure() {
             Nossa Estrutura
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-            Espacos pensados para o conforto e bem-estar
+            Espaços pensados para o conforto e bem-estar
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Cada ambiente foi planejado com carinho para proporcionar seguranca,
+            Cada ambiente foi planejado com carinho para proporcionar segurança,
             acessibilidade e aconchego aos nossos residentes.
           </p>
         </div>

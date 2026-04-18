@@ -13,35 +13,35 @@ const services = [
     icon: Home,
     title: "Acolhimento Permanente",
     description:
-      "Ambiente seguro e acolhedor para moradia de longa permanencia, com suporte 24 horas.",
+      "Ambiente seguro e acolhedor para moradia de longa permanência, com suporte 24 horas.",
   },
   {
     icon: Stethoscope,
     title: "Enfermagem 24h",
     description:
-      "Equipe de enfermagem presente dia e noite, garantindo cuidados continuos e atenciosos.",
+      "Equipe de enfermagem presente dia e noite, garantindo cuidados contínuos e atenciosos.",
   },
   {
     icon: UtensilsCrossed,
-    title: "Alimentacao Balanceada",
+    title: "Alimentação Balanceada",
     description:
-      "Refeicoes nutritivas e saborosas, elaboradas por nutricionistas para cada necessidade.",
+      "Refeições nutritivas e saborosas, elaboradas por nutricionistas para cada necessidade.",
   },
   {
     icon: Activity,
     title: "Fisioterapia",
     description:
-      "Sessoes de fisioterapia para manutencao da mobilidade, forca e independencia funcional.",
+      "Sessoes de fisioterapia para manutenção da mobilidade, forca e independência funcional.",
   },
   {
     icon: Gamepad2,
     title: "Atividades Recreativas",
     description:
-      "Programacao diaria com jogos, musica, artesanato e atividades de socializacao.",
+      "Programação diária com jogos, música, artesanato e atividades de socialização.",
   },
   {
     icon: Brain,
-    title: "Atendimento Psicologico",
+    title: "Atendimento Psicológico",
     description:
       "Apoio emocional especializado para residentes e suas familias, com escuta ativa e acolhimento.",
   },
@@ -49,7 +49,7 @@ const services = [
     icon: HeartPulse,
     title: "Acompanhamento Medico",
     description:
-      "Consultas regulares e monitoramento de saude com medicos geriatras e especialistas.",
+      "Consultas regulares e monitoramento de saude com medicos e especialistas.",
   },
 ]
 
@@ -59,7 +59,7 @@ export function Services() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
           <span className="text-sm font-medium tracking-wider uppercase text-primary">
-            Nossos Servicos
+            Nossos Serviços
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
             Cuidado completo para cada necessidade

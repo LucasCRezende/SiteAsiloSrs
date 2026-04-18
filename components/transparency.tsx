@@ -5,7 +5,7 @@ const items = [
     icon: FileText,
     title: "Relatorios Financeiros",
     description:
-      "Publicamos anualmente nossos relatorios financeiros detalhados, garantindo total transparencia sobre a utilizacao dos recursos.",
+      "Publicamos anualmente nossos relatórios financeiros detalhados, garantindo total transparência sobre a utilização dos recursos.",
     badge: "Atualizado 2025",
   },
   {
