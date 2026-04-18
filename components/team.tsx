@@ -39,7 +39,7 @@ const team = [
   },
   {
     icon: Users,
-    role: "Voluntarios",
+    role: "Voluntários",
     description:
       "Pessoas generosas que doam seu tempo e amor, enriquecendo o dia a dia dos nossos idosos.",
   },
@@ -54,7 +54,7 @@ export function Team() {
             Nossa Equipe
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-            Profissionais que cuidam com o coracao
+            Profissionais que cuidam com o coração
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
             Contamos com uma equipe multidisciplinar qualificada e apaixonada

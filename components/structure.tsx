@@ -7,23 +7,23 @@ import { X } from "lucide-react"
 const photos = [
   {
     src: "/images/structure-1.jpg",
-    alt: "Quarto confortavel e bem iluminado",
+    alt: "Quarto confortável e bem iluminado",
     label: "Quartos",
   },
   {
     src: "/images/structure-2.jpg",
-    alt: "Area externa com jardim e bancos",
+    alt: "Área externa com jardim e bancos",
     label: "Area Externa",
   },
   {
     src: "/images/structure-3.jpg",
-    alt: "Refeitorio amplo e limpo",
+    alt: "Refeitório amplo e limpo",
     label: "Refeitorio",
   },
   {
     src: "/images/structure-4.jpg",
-    alt: "Espaco de convivencia acolhedor",
-    label: "Convivencia",
+    alt: "Espaço de convivência acolhedor",
+    label: "Convivência",
   },
 ]
 

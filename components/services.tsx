@@ -23,7 +23,7 @@ const services = [
   },
   {
     icon: UtensilsCrossed,
-    title: "Alimentacao Balanceada",
+    title: "Alimentação Balanceada",
     description:
       "Refeições nutritivas e saborosas, elaboradas por nutricionistas para cada necessidade.",
   },
@@ -37,7 +37,7 @@ const services = [
     icon: Gamepad2,
     title: "Atividades Recreativas",
     description:
-      "Programacao diária com jogos, musica, artesanato e atividades de socialização.",
+      "Programação diária com jogos, musica, artesanato e atividades de socialização.",
   },
   {
     icon: Brain,
@@ -47,7 +47,7 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "Acompanhamento Medico",
+    title: "Acompanhamento Médico",
     description:
       "Consultas regulares e monitoramento de saude com medicos e especialistas.",
   },
