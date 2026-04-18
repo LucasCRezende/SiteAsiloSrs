@@ -6,7 +6,7 @@ const donationOptions = [
   {
     icon: HandCoins,
     title: "Pix",
-    description: "Façaa uma doação rápida e segura via Pix para nossa chave institucional.",
+    description: "Faça uma doação rápida e segura via Pix para nossa chave institucional.",
   },
   {
     icon: Heart,
