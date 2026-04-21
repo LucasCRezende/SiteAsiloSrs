@@ -100,7 +100,7 @@ ${message}
 
             <div className="mt-8 h-[250px] rounded-2xl overflow-hidden border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2190.351051553865!2d-45.7036917!3d-22.2377374"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2190.351051553865!2d-45.7036917!3d-22.2377374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba3b219483311%3A0x2a6955cdc70667d5!2sAsilo%20-%20Sociedade%20de%20Assist%C3%AAncia%20aos%20Pobres!5e1!3m2!1spt-BR!2sbr!4v1772026674767!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
