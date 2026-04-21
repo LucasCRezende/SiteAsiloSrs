@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import { MapPin, Phone, Mail, Clock, CheckCircle2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -65,7 +65,7 @@ export function Contact() {
             </div>
 
             <div className="mt-8 rounded-2xl overflow-hidden border border-border h-[250px]">
-            <iframe
+              <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2190.351051553865!2d-45.7036917!3d-22.2377374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba3b219483311%3A0x2a6955cdc70667d5!2sAsilo%20-%20Sociedade%20de%20Assist%C3%AAncia%20aos%20Pobres!5e1!3m2!1spt-BR!2sbr!4v1772026674767!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
@@ -77,23 +77,48 @@ export function Contact() {
             </div>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-8">
+          <div className="bg-card border border-border rounded-2xl p-8 shadow-xl">
             {submitted ? (
-              <div className="flex flex-col items-center justify-center h-full text-center py-12">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                  <Mail className="h-8 w-8 text-primary" />
-                </div>
+              <div className="flex flex-col items-center justify-center h-full text-center py-12 animate-fade-in">
+                <CheckCircle2 className="h-16 w-16 text-green-500 mb-6 animate-bounce" />
                 <h3 className="text-2xl font-bold text-foreground mb-2">
-                  Mensagem enviada!
+                  Redirecionando para o WhatsApp...
                 </h3>
                 <p className="text-muted-foreground">
-                  Agradecemos seu contato. Responderemos em breve.
+                  Clique em enviar no WhatsApp para finalizar.
                 </p>
               </div>
             ) : (
               <form
                 onSubmit={(e) => {
                   e.preventDefault()
+
+                  const form = e.currentTarget
+
+                  const name = form.name.value
+                  const email = form.email.value
+                  const phone = form.phone.value
+                  const subject = form.subject.value
+                  const message = form.message.value
+
+                  const texto = `
+*Novo contato pelo site*
+
+*Nome:* ${name}
+*Email:* ${email}
+*Telefone:* ${phone}
+*Assunto:* ${subject}
+
+*Mensagem:*
+${message}
+                  `
+
+                  const numero = "553534711112" // 🔴 SEU NÚMERO AQUI
+
+                  const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`
+
+                  window.open(url, "_blank")
+
                   setSubmitted(true)
                 }}
                 className="flex flex-col gap-5"
@@ -101,67 +126,24 @@ export function Contact() {
                 <h3 className="text-xl font-bold text-foreground mb-2">
                   Envie uma mensagem
                 </h3>
+
                 <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="name" className="text-sm font-medium text-foreground mb-1.5 block">
-                      Nome
-                    </label>
-                    <Input
-                      id="name"
-                      placeholder="Seu nome"
-                      required
-                      className="bg-background"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="text-sm font-medium text-foreground mb-1.5 block">
-                      E-mail
-                    </label>
-                    <Input
-                      id="email"
-                      type="email"
-                      placeholder="seu@email.com"
-                      required
-                      className="bg-background"
-                    />
-                  </div>
+                  <Input name="name" placeholder="Seu nome" required />
+                  <Input name="email" type="email" placeholder="seu@email.com" required />
                 </div>
-                <div>
-                  <label htmlFor="phone" className="text-sm font-medium text-foreground mb-1.5 block">
-                    Telefone
-                  </label>
-                  <Input
-                    id="phone"
-                    type="tel"
-                    placeholder="(00) 00000-0000"
-                    className="bg-background"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="text-sm font-medium text-foreground mb-1.5 block">
-                    Assunto
-                  </label>
-                  <Input
-                    id="subject"
-                    placeholder="Sobre o que gostaria de falar?"
-                    required
-                    className="bg-background"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="text-sm font-medium text-foreground mb-1.5 block">
-                    Mensagem
-                  </label>
-                  <Textarea
-                    id="message"
-                    placeholder="Escreva sua mensagem..."
-                    rows={4}
-                    required
-                    className="bg-background resize-none"
-                  />
-                </div>
+
+                <Input name="phone" placeholder="Telefone" />
+                <Input name="subject" placeholder="Assunto" required />
+
+                <Textarea
+                  name="message"
+                  placeholder="Escreva sua mensagem..."
+                  rows={4}
+                  required
+                />
+
                 <Button type="submit" size="lg" className="w-full">
-                  Enviar Mensagem
+                  Enviar pelo WhatsApp
                 </Button>
               </form>
             )}
