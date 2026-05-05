@@ -7,23 +7,33 @@ import { X } from "lucide-react"
 const photos = [
   {
     src: "/images/structure-1.jpg",
-    alt: "Quarto confortável e bem iluminado",
-    label: "Quartos",
+    alt: "Lugar onde os idosos tem atendimento fisioterapico",
+    label: "Fisioterapia",
   },
   {
     src: "/images/structure-2.jpg",
-    alt: "Área externa com jardim e bancos",
+    alt: "Área externa com poutronas ao ar livre",
     label: "Area Externa",
   },
   {
     src: "/images/structure-3.jpg",
-    alt: "Refeitório amplo e limpo",
-    label: "Refeitorio",
+    alt: "Refeitório e sala de descanso amplo e limpo",
+    label: "Refeitório e sala de descanso",
   },
   {
     src: "/images/structure-4.jpg",
-    alt: "Espaço de convivência acolhedor",
-    label: "Convivência",
+    alt: "Refeitório amplo e limpo",
+    label: "Refeitório",
+  },
+  {
+    src: "/images/structure-5.jpg",
+    alt: "Espaço ambulatorial acolhedor e funcional",
+    label: "Ambulatório",
+  },
+    {
+    src: "/images/structure-6.jpg",
+    alt: "Corredor que da acesso ao Asilo",
+    label: "Hall de entrada",
   },
 ]
 

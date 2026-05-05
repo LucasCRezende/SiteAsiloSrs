@@ -7,27 +7,27 @@ const testimonials = [
   {
     name: "Maria Helena",
     role: "Familiar",
-    text: "Minha mae esta no Sociedade de Assistência aos Pobres há 3 anos e posso dizer que foi a melhor decisao que tomamos. A equipe trata ela com muito carinho e respeito. Fico tranquila sabendo que ela esta bem cuidada.",
+    text: "Minha mãe esta no Sociedade de Assistência aos Pobres há 3 anos e posso dizer que foi a melhor decisão que tomamos. A equipe trata ela com muito carinho e respeito. Fico tranquila sabendo que ela esta bem cuidada.",
   },
   {
-    name: "Seu Joao",
+    name: "Seu João",
     role: "Residente",
-    text: "Aqui eu encontrei uma nova familia. As atividades do dia a dia me mantem ativo e feliz. Os cuidadores sao maravilhosos e sempre estao dispostos a ajudar com um sorriso no rosto.",
+    text: "Aqui eu encontrei uma nova família. As atividades do dia a dia me mantem ativo e feliz. Os cuidadores sao maravilhosos e sempre estao dispostos a ajudar com um sorriso no rosto.",
   },
   {
     name: "Ana Paula",
-    role: "Voluntaria",
-    text: "Ser voluntaria no Sociedade de Assistência aos Pobres mudou minha vida. Ver o sorriso dos idosos quando chegamos e algo que nao tem preco. A instituicao faz um trabalho incrivel e merece todo apoio.",
+    role: "Voluntária",
+    text: "Ser voluntária no Sociedade de Assistência aos Pobres mudou minha vida. Ver o sorriso dos idosos quando chegamos e algo que nao tem preco. A instituição faz um trabalho incrivel e merece todo apoio.",
   },
   {
     name: "Carlos Eduardo",
     role: "Familiar",
-    text: "A transparencia e o profissionalismo da equipe nos deram a confianca que precisavamos. Meu pai recebe cuidados excepcionais e participamos ativamente do dia a dia dele.",
+    text: "A transparência e o profissionalismo da equipe nos deram a confianca que precisavamos. Meu pai recebe cuidados excepcionais e participamos ativamente do dia a dia dele.",
   },
   {
     name: "Dona Francisca",
     role: "Residente",
-    text: "Nunca pensei que seria tao feliz morando aqui. Fiz amizades, aprendi coisas novas e me sinto acolhida todos os dias. E como ter uma familia grande e carinhosa.",
+    text: "Nunca pensei que seria tão feliz morando aqui. Fiz amizades, aprendi coisas novas e me sinto acolhida todos os dias. E como ter uma familia grande e carinhosa.",
   },
 ]
 
