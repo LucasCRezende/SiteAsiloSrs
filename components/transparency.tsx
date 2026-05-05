@@ -37,14 +37,14 @@ export function Transparency() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
           <span className="text-sm font-medium tracking-wider uppercase text-primary">
-            Transparencia
+            Transparência
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-            Compromisso com a confianca
+            Compromisso com a confiança
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Acreditamos que a transparencia e a base da confianca. Por isso,
-            mantemos todos os nossos processos abertos e acessiveis.
+            Acreditamos que a transparência e a base da confianca. Por isso,
+            mantemos todos os nossos processos abertos e acessíveis.
           </p>
         </div>
 
