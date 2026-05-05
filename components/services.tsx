@@ -59,7 +59,7 @@ export function Services() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
           <span className="text-sm font-medium tracking-wider uppercase text-primary">
-            Nossos Servicos
+            Nossos Serviços
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
             Cuidado completo para cada necessidade
