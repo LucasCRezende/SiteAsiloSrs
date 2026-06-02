@@ -35,7 +35,7 @@ const items = [
     },
     {
       name: "📄 AVCB - Corpo de Bombeiros",
-      file: "/certificados/avcb-corpo-bombeiros.pdf",
+      file: "/certificados/Certificado AVCB.pdf",
     },
   ],
 }
