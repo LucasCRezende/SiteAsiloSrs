@@ -5,30 +5,40 @@ const items = [
     icon: FileText,
     title: "Relatórios Financeiros",
     description:
-      "Publicamos anualmente nossos relatórios financeiros detalhados, garantindo total transparência sobre a utilizacao dos recursos.",
+      "Publicamos anualmente nossos relatórios financeiros detalhados, garantindo total transparência sobre a utilização dos recursos.",
     badge: "Atualizado 2025",
   },
   {
     icon: Handshake,
     title: "Parcerias",
     description:
-      "Trabalhamos em conjunto com orgaos públicos, empresas e organizacoes sociais para ampliar nosso impacto e alcance.",
+      "Trabalhamos em conjunto com orgaos públicos, empresas e organizações sociais para ampliar nosso impacto e alcance.",
     badge: "15+ Parceiros",
   },
   {
     icon: ClipboardCheck,
     title: "Prestação de Contas",
     description:
-      "Mantemos registros detalhados de todas as entradas e saídas, disponíveis para consulta publica a qualquer momento.",
+      "Mantemos registros detalhados de todas as entradas e saídas, disponíveis para consulta pública a qualquer momento.",
     badge: "Auditado",
   },
-  {
-    icon: Award,
-    title: "Certificações",
-    description:
-      "Possuímos todas as certificações necessárias e somos reconhecidos pelos orgãos reguladores pela qualidade dos nossos serviços.",
-    badge: "CNAS / CEBAS",
-  },
+{
+  icon: Award,
+  title: "Certificações",
+  description:
+    "Possuímos todas as certificações necessárias e somos reconhecidos pelos órgãos reguladores pela qualidade dos nossos serviços.",
+  badge: "CNAS / CEBAS",
+  certificates: [
+    {
+      name: "Certificação CEBAS",
+      file: "/certificados/certificacao-cebas.pdf",
+    },
+    {
+      name: "AVCB - Corpo de Bombeiros",
+      file: "/certificados/avcb-corpo-bombeiros.pdf",
+    },
+  ],
+}
 ]
 
 export function Transparency() {
