@@ -15,7 +15,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefone / WhatsApp",
-    value: "(35) 3471-1112",
+    value: "(35) 8862-2202",
   },
   {
     icon: Mail,
@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Horário de Visitas",
-    value: "Segunda a Domingo, 9h as 17h",
+    value: "Terça, Quinta, Sádado e Domingo, 15h as 16h (Com no máximo 03 visitantes)",
   },
 ]
 
@@ -55,7 +55,7 @@ export function Contact() {
 ${message}
     `
 
-    const numero = "553534711112" // 🔴 ALTERE PARA SEU NÚMERO
+    const numero = "553588622202" // 🔴 ALTERE PARA SEU NÚMERO
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`
 

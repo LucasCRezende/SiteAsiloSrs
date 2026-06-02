@@ -55,7 +55,7 @@ export function Testimonials() {
             Depoimentos
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-            O que dizem sobre nos
+            O que dizem sobre nós
           </h2>
         </div>
 
