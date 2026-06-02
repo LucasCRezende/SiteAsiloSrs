@@ -30,11 +30,11 @@ const items = [
   badge: "CNAS / CEBAS",
   certificates: [
     {
-      name: "📄 Certificação CEBAS",
+      name: "Certificação CEBAS",
       file: "/certificados/certificacao-cebas.pdf",
     },
     {
-      name: "📄 AVCB - Corpo de Bombeiros",
+      name: "AVCB - Corpo de Bombeiros",
       file: "/certificados/Certificado AVCB.pdf",
     },
   ],
