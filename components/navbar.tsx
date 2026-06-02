@@ -11,7 +11,7 @@ const navLinks = [
   { label: "Estrutura", href: "#estrutura" },
   { label: "Equipe", href: "#equipe" },
   { label: "Depoimentos", href: "#depoimentos" },
-  { label: "Transparência", href: "#transparência" },
+  { label: "Transparência", href: "#transparencia" },
   { label: "Contato", href: "#contato" },
 ]
 
