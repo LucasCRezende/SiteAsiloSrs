@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Horário de Visitas",
-    value: "Terça, Quinta, Sádado e Domingo, 15h as 16h (Com no máximo 03 visitantes)",
+    value: "Terça, Quinta, Sádado e Domingo das 15h as 16h (Com no máximo 03 visitantes)",
   },
 ]
 
