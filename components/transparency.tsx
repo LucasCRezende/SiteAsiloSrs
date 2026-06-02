@@ -72,8 +72,29 @@ export function Transparency() {
                   {item.badge}
                 </span>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">{item.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+<h3 className="text-xl font-bold text-foreground mb-2">
+  {item.title}
+</h3>
+
+<p className="text-muted-foreground leading-relaxed">
+  {item.description}
+</p>
+
+{"certificates" in item && item.certificates && (
+  <div className="mt-4 flex flex-col gap-2">
+    {item.certificates.map((cert) => (
+      <a
+        key={cert.file}
+        href={cert.file}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm font-medium text-primary hover:underline"
+      >
+        📄 {cert.name}
+      </a>
+    ))}
+  </div>
+)}
             </div>
           ))}
         </div>
