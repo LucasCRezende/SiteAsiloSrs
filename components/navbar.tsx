@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
-  { label: "Servicos", href: "#servicos" },
+  { label: "Serviços", href: "#serviços" },
   { label: "Estrutura", href: "#estrutura" },
   { label: "Equipe", href: "#equipe" },
   { label: "Depoimentos", href: "#depoimentos" },
-  { label: "Transparencia", href: "#transparencia" },
+  { label: "Transparência", href: "#transparencia" },
   { label: "Contato", href: "#contato" },
 ]
 
@@ -25,7 +25,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-2">
             <Heart className="h-7 w-7 text-primary" fill="currentColor" />
             <span className="text-xl font-bold text-foreground tracking-tight">
-              Lar Acolher
+              Sociedade de Assistência aos Pobres
             </span>
           </Link>
 

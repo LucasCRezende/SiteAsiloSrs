@@ -3,12 +3,12 @@ import { Heart, Facebook, Instagram, Youtube } from "lucide-react"
 
 const quickLinks = [
   { label: "Sobre Nos", href: "#sobre" },
-  { label: "Servicos", href: "#servicos" },
+  { label: "Serviços", href: "#serviços" },
   { label: "Estrutura", href: "#estrutura" },
   { label: "Equipe", href: "#equipe" },
   { label: "Depoimentos", href: "#depoimentos" },
-  { label: "Transparencia", href: "#transparencia" },
-  { label: "Noticias", href: "#noticias" },
+  { label: "Transparência", href: "#transparência" },
+  { label: "Notícias", href: "#notícias" },
   { label: "Contato", href: "#contato" },
 ]
 
@@ -27,11 +27,11 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Heart className="h-7 w-7 text-accent" fill="currentColor" />
               <span className="text-xl font-bold text-primary-foreground">
-                Asilo de Santa Rita
+                Sociedade de Assistência aos Pobres
               </span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Cuidado, amor e dignidade na melhor idade. Uma instituicao dedicada
+              Cuidado, amor e dignidade na melhor idade. Uma instituição dedicada
               ao bem-estar e a qualidade de vida dos idosos.
             </p>
             <div className="flex gap-3 mt-6">
@@ -84,7 +84,7 @@ export function Footer() {
             <h3 className="font-bold text-primary-foreground mb-4">Contato</h3>
             <div className="flex flex-col gap-2.5 text-sm text-primary-foreground/70">
               <p>Rua Monsenhor Calazans, 120</p>
-              <p>Vila operária, Santa Rita do Sapucaí - MG</p>
+              <p>Vila Operária, Santa Rita do Sapucaí - MG</p>
               <p>(35) 3471-1112</p>
               <p>asilosrs@yahoo.com.br</p>
             </div>

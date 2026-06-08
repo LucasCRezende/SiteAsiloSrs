@@ -5,21 +5,21 @@ const posts = [
   {
     date: "15 Fev 2026",
     category: "Evento",
-    title: "Festa de Carnaval anima residentes e familias",
+    title: "Festa de Carnaval anima residentes e famílias",
     excerpt:
       "Nossa tradicional festa de Carnaval reuniu residentes, familiares e voluntarios em uma tarde repleta de musica, dancas e muita alegria.",
   },
   {
     date: "02 Fev 2026",
     category: "Campanha",
-    title: "Campanha do Agasalho 2026 ja comecou",
+    title: "Campanha do Agasalho 2026 ja começou",
     excerpt:
       "Estamos arrecadando cobertores, roupas de inverno e itens de aquecimento para garantir o conforto dos nossos idosos nos meses mais frios.",
   },
   {
     date: "20 Jan 2026",
     category: "Acao Social",
-    title: "Parceria com universidade traz alunos voluntarios",
+    title: "Parceria com universidade traz alunos voluntários",
     excerpt:
       "Firmamos parceria com a universidade local para receber alunos de enfermagem, fisioterapia e psicologia em estagio solidario.",
   },

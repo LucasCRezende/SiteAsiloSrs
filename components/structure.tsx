@@ -7,23 +7,33 @@ import { X } from "lucide-react"
 const photos = [
   {
     src: "/images/structure-1.jpg",
-    alt: "Quarto confortavel e bem iluminado",
-    label: "Quartos",
+    alt: "Lugar onde os idosos tem atendimento fisioterapico",
+    label: "Fisioterapia",
   },
   {
     src: "/images/structure-2.jpg",
-    alt: "Area externa com jardim e bancos",
+    alt: "Área externa com poutronas ao ar livre",
     label: "Area Externa",
   },
   {
     src: "/images/structure-3.jpg",
-    alt: "Refeitorio amplo e limpo",
-    label: "Refeitorio",
+    alt: "Refeitório e sala de descanso amplo e limpo",
+    label: "Refeitório e sala de descanso",
   },
   {
     src: "/images/structure-4.jpg",
-    alt: "Espaco de convivencia acolhedor",
-    label: "Convivencia",
+    alt: "Refeitório amplo e limpo",
+    label: "Refeitório",
+  },
+  {
+    src: "/images/structure-5.jpg",
+    alt: "Espaço ambulatorial acolhedor e funcional",
+    label: "Ambulatório",
+  },
+    {
+    src: "/images/structure-6.jpg",
+    alt: "Corredor que da acesso ao Asilo",
+    label: "Hall de entrada",
   },
 ]
 
@@ -38,10 +48,10 @@ export function Structure() {
             Nossa Estrutura
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-foreground leading-tight text-balance">
-            Espacos pensados para o conforto e bem-estar
+            Espaços pensados para o conforto e bem-estar
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Cada ambiente foi planejado com carinho para proporcionar seguranca,
+            Cada ambiente foi planejado com carinho para proporcionar segurança,
             acessibilidade e aconchego aos nossos residentes.
           </p>
         </div>
