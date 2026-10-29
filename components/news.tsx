@@ -1,7 +1,23 @@
 import { Calendar, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
-const posts = [
+const posts: { date: string; category: string; title: string; excerpt: string; href?: string }[] = [
+  {
+    date: "28 Out 2026",
+    category: "Campanha",
+    title: "Rifa Solidária sorteia uma Chevrolet Montana",
+    excerpt:
+      "Com apenas R$ 20,00 por número você concorre a uma Montana LS 1.4 Flex 2014 e ajuda o Asilo. O sorteio será no dia 07 de novembro.",
+    href: "#campanhas",
+  },
+  {
+    date: "28 Out 2026",
+    category: "Evento",
+    title: "Leilão Beneficente do Asilo no Parque Cooperita",
+    excerpt:
+      "No dia 07 de novembro, às 15:00, acontece o Leilão Beneficente de gado no Parque de Exposição Cooperita, em Santa Rita do Sapucaí.",
+    href: "#campanhas",
+  },
   {
     date: "15 Fev 2026",
     category: "Evento",
@@ -70,7 +86,7 @@ export function News() {
                   {post.excerpt}
                 </p>
                 <Link
-                  href="#"
+                  href={post.href ?? "#"}
                   className="inline-flex items-center mt-4 text-sm font-medium text-primary hover:underline"
                 >
                   Leia mais

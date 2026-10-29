@@ -31,6 +31,18 @@ export function Hero() {
         
         <div className="max-w-2xl">
           
+          {/* Destaque campanhas */}
+          <Link
+            href="#campanhas"
+            className="group mb-6 flex w-fit flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-colors"
+          >
+            <span>07/11: Rifa da Montana + Leilão Beneficente</span>
+            <span className="inline-flex items-center underline underline-offset-4">
+              Saiba como ajudar
+              <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </Link>
+
           {/* Badge */}
           <span className="inline-block mb-4 px-4 py-1.5 text-xs font-medium tracking-wider uppercase bg-primary/20 text-primary-foreground border border-primary-foreground/20 rounded-full backdrop-blur-sm">
             Cuidado que transforma vidas

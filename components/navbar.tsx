@@ -6,11 +6,13 @@ import { Menu, X, Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
+  { label: "Rifa & Leilão", href: "#campanhas" },
   { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#serviços" },
   { label: "Estrutura", href: "#estrutura" },
   { label: "Equipe", href: "#equipe" },
   { label: "Depoimentos", href: "#depoimentos" },
+  { label: "Doadores", href: "#doadores" },
   { label: "Transparência", href: "#transparencia" },
   { label: "Contato", href: "#contato" },
 ]
@@ -24,24 +26,24 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between lg:h-20">
           <Link href="/" className="flex items-center gap-2">
             <Heart className="h-7 w-7 text-primary" fill="currentColor" />
-            <span className="text-xl font-bold text-foreground tracking-tight">
+            <span className="text-xl font-bold text-foreground tracking-tight xl:whitespace-nowrap">
               Sociedade de Assistência aos Pobres
             </span>
           </Link>
 
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden xl:flex items-center gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                className="whitespace-nowrap text-[13px] font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
               </Link>
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden 2xl:flex items-center gap-3">
             <Button asChild variant="outline" size="sm">
               <Link href="#doar">Quero Ajudar</Link>
             </Button>
@@ -49,7 +51,7 @@ export function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-foreground"
+            className="xl:hidden p-2 text-foreground"
             aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -57,7 +59,7 @@ export function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="lg:hidden border-t border-border pb-4">
+          <div className="xl:hidden border-t border-border pb-4">
             <div className="flex flex-col gap-2 pt-4">
               {navLinks.map((link) => (
                 <Link
