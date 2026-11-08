@@ -6,7 +6,7 @@ import { Menu, X, Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "Rifa & Leilão", href: "#campanhas" },
+  { label: "Ganhadora da Rifa", href: "#ganhadora" },
   { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#serviços" },
   { label: "Estrutura", href: "#estrutura" },

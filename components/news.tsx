@@ -3,20 +3,12 @@ import Link from "next/link"
 
 const posts: { date: string; category: string; title: string; excerpt: string; href?: string }[] = [
   {
-    date: "28 Out 2026",
-    category: "Campanha",
-    title: "Rifa Solidária sorteia uma Chevrolet Montana",
+    date: "07 Nov 2026",
+    category: "Resultado",
+    title: "Sabrina (Pilates) ganha a Chevrolet Montana da Rifa Solidária",
     excerpt:
-      "Com apenas R$ 20,00 por número você concorre a uma Montana LS 1.4 Flex 2014 e ajuda o Asilo. O sorteio será no dia 07 de novembro.",
-    href: "#campanhas",
-  },
-  {
-    date: "28 Out 2026",
-    category: "Evento",
-    title: "Leilão Beneficente do Asilo no Parque Cooperita",
-    excerpt:
-      "No dia 07 de novembro, às 15:00, acontece o Leilão Beneficente de gado no Parque de Exposição Cooperita, em Santa Rita do Sapucaí.",
-    href: "#campanhas",
+      "O número 2677 foi o sorteado na Rifa Solidária do Asilo. Parabéns à ganhadora e obrigado a todos que participaram da rifa e do Leilão Beneficente.",
+    href: "#ganhadora",
   },
   {
     date: "15 Fev 2026",

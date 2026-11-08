@@ -31,14 +31,14 @@ export function Hero() {
         
         <div className="max-w-2xl">
           
-          {/* Destaque campanhas */}
+          {/* Destaque ganhadora */}
           <Link
-            href="#campanhas"
+            href="#ganhadora"
             className="group mb-6 flex w-fit flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-colors"
           >
-            <span>07/11: Rifa da Montana + Leilão Beneficente</span>
+            <span>Rifa da Montana: Sabrina (Pilates) foi a ganhadora!</span>
             <span className="inline-flex items-center underline underline-offset-4">
-              Saiba como ajudar
+              Veja a foto
               <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
             </span>
           </Link>
