@@ -7,7 +7,7 @@ const posts: { date: string; category: string; title: string; excerpt: string; h
     category: "Resultado",
     title: "Sabrina (Pilates) ganha a Chevrolet Montana da Rifa Solidária",
     excerpt:
-      "O número 2677 foi o sorteado na Rifa Solidária do Asilo. Parabéns à ganhadora e obrigado a todos que participaram da rifa e do Leilão Beneficente.",
+      "O número 2677 foi o sorteado na Rifa Solidária do Asilo. A Montana já foi entregue à ganhadora, Sabrina Aparecida dos Santos. Obrigado a todos que participaram da rifa e do Leilão Beneficente.",
     href: "#ganhadora",
   },
   {

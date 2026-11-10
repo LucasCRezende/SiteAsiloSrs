@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Ticket, Trophy } from "lucide-react"
+import { KeyRound, Ticket, Trophy } from "lucide-react"
 
 export function Ganhadora() {
   return (
@@ -26,7 +26,7 @@ export function Ganhadora() {
             </h2>
 
             <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
-              Parabéns, Sabrina! E muito obrigado a todos que compraram sua cota e
+              Parabéns, Sabrina Aparecida dos Santos! E muito obrigado a todos que compraram sua cota e
               participaram do Leilão Beneficente. Cada gesto ajuda o Asilo a continuar
               cuidando de quem mais precisa.
             </p>
@@ -37,6 +37,21 @@ export function Ganhadora() {
             </p>
           </div>
         </div>
+
+        <figure className="mt-12 lg:mt-16 mx-auto max-w-4xl">
+          <Image
+            src="/images/entrega-montana.webp"
+            alt="Entrega da Chevrolet Montana à ganhadora Sabrina Aparecida dos Santos, em frente ao Asilo, ao lado de representantes da instituição"
+            width={1280}
+            height={720}
+            sizes="(min-width: 1024px) 896px, 100vw"
+            className="w-full h-auto rounded-3xl border border-border shadow-lg"
+          />
+          <figcaption className="mt-4 flex items-center justify-center gap-2 text-center text-muted-foreground">
+            <KeyRound className="h-4 w-4 text-primary shrink-0" />
+            Entrega da Montana para a ganhadora da rifa, Sabrina Aparecida dos Santos
+          </figcaption>
+        </figure>
       </div>
     </section>
   )
